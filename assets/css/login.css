@@ -1,0 +1,220 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+.box {
+  width: 1366px;
+  height: 100vh;
+}
+
+.box .content-left {
+  width: 512px;
+  height: 100vh;
+  float: left;
+  background: #FFFFFF;
+}
+
+.box .content-left .box-content-left {
+  width: 275px;
+  height: 500px;
+  float: left;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 95.5px;
+  padding-bottom: 0px;
+}
+
+.box .content-left .box-content-left .logos {
+  width: 280px;
+  height: 114px;
+}
+
+.box .content-left .box-content-left .logos span {
+  font-family: Montserrat-Regular;
+  font-size: 30px;
+  text-align: left;
+  color: #463939;
+}
+
+.box .content-left .box-content-left .logos span:nth-child(2) {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.box .content-left .box-content-left .logos p {
+  width: 275px;
+  height: 20px;
+  color: #BCBCBC;
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.box .content-left .box-content-left .email {
+  width: 280px;
+  height: 62.60px;
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 14.5px;
+  margin-bottom: 0px;
+}
+
+.box .content-left .box-content-left .email span.label-email {
+  width: 50px;
+  height: 19px;
+  text-align: left;
+  color: #515151;
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  display: block;
+}
+
+.box .content-left .box-content-left .email input {
+  width: 275px;
+  height: 35px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 8.5px;
+  margin-bottom: 0px;
+  border: 1px solid #BCBCBC;
+  padding-left: 4px;
+  padding-right: 0px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  outline: none;
+  background: transparent;
+}
+
+.box .content-left .box-content-left .email input::-webkit-input-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .box-content-left .email input::-moz-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .box-content-left .email input:-ms-input-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-left .box-content-left .email input:-moz-placeholder::-webkit-input-placeholder {
+  font-family: Montserrat-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+}
+
+.box .content-right {
+  width: 855px;
+  height: 100vh;
+  float: left;
+}
+
+.box .content-right img {
+  width: 855px;
+  height: 798px;
+}
