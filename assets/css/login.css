@@ -494,14 +494,13 @@ a {
 }
 
 .box .content-right {
-  width: 900px;
+  width: 850px;
   height: 100vh;
   float: left;
-  position: relative;
 }
 
 .box .content-right img {
-  width: 900px;
+  width: 850px;
   height: 100vh;
   float: left;
 }
