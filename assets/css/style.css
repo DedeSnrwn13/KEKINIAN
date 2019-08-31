@@ -305,11 +305,27 @@ header .navbar .container .menu-bar ul li {
   display: flex;
   color: var(--color-menu-bar);
   cursor: pointer;
+  -webkit-transition: .35s;
+  transition: .35s;
 }
 
 header .navbar .container .menu-bar ul li:nth-child(1) {
   width: 51px;
   height: 20px;
+}
+
+header .navbar .container .menu-bar ul li:nth-child(1) a {
+  text-decoration: none !important;
+  color: var(--color-menu-bar);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .navbar .container .menu-bar ul li:nth-child(1) a:hover {
+  color: #073C64;
+  -webkit-transition: .3s;
+  transition: .3s;
+  letter-spacing: 1px;
 }
 
 header .navbar .container .menu-bar ul li:nth-child(2) {
@@ -318,29 +334,64 @@ header .navbar .container .menu-bar ul li:nth-child(2) {
   margin-left: 30px;
 }
 
+header .navbar .container .menu-bar ul li:nth-child(2) a {
+  text-decoration: none !important;
+  color: var(--color-menu-bar);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .navbar .container .menu-bar ul li:nth-child(2) a:hover {
+  color: #073C64;
+  -webkit-transition: .3s;
+  transition: .3s;
+  letter-spacing: 1px;
+}
+
 header .navbar .container .menu-bar ul li:nth-child(3) {
   width: 36px;
   height: 20px;
   margin-left: 30px;
+  color: var(--color-menu-bar);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .navbar .container .menu-bar ul li:hover:nth-child(3) {
+  color: #073C64;
+  -webkit-transition: .3s;
+  transition: .3s;
+  letter-spacing: 1px;
 }
 
 header .navbar .container .menu-bar ul li:nth-child(4) {
-  width: 96px;
+  width: 115px;
   height: 20px;
   margin-left: 30px;
+  color: var(--color-menu-bar);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header .navbar .container .menu-bar ul li:hover:nth-child(4) {
+  width: 115px;
+  color: #073C64;
+  -webkit-transition: .3s;
+  transition: .3s;
+  letter-spacing: 1px;
 }
 
 header .navbar .container .search {
-  width: 40.42px;
+  width: 42.42px;
   height: 40.42px;
   margin-top: 13px;
   float: left;
-  margin-left: 750px;
+  margin-left: 730px;
   cursor: pointer;
 }
 
 header .navbar .container .search img {
-  float: left;
+  float: right;
   width: 40.42px;
   height: 40.42px;
 }
@@ -390,6 +441,8 @@ header .navbar .container .logOrRegist {
   margin-top: 17px;
   margin-bottom: 17px;
   right: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 header .navbar .container .logOrRegist .btn-login {
@@ -417,6 +470,17 @@ header .navbar .container .logOrRegist .btn-login a {
   display: flex;
   text-decoration: none;
   padding: 5px;
+}
+
+header .navbar .container .logOrRegist .btn-login:hover {
+  opacity: .9;
+  -webkit-transition: .75s;
+  transition: .75s;
+}
+
+header .navbar .container .logOrRegist .btn-login:hover a:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 footer {

@@ -1,0 +1,115 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.news {
+  width: 100vw;
+  height: 766px;
+  float: left;
+}
+
+.news .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.news .container .news-now {
+  width: 1088px;
+  height: 444px;
+  float: left;
+}
+
+.news .container .news-now .content-left {
+  width: 552px;
+  height: 444px;
+  float: left;
+}
+
+.news .container .news-now .content-left img {
+  position: relative;
+  width: 552px  !important;
+  height: 444px !important;
+}
