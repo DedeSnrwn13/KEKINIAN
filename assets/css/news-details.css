@@ -51,6 +51,22 @@
   src: url(".././fonts/Montserrat-Regular.ttf");
 }
 
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
 /**
 
 

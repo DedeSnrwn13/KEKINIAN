@@ -1,0 +1,193 @@
+/**
+** this for first setup
+**/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+** setup fonts
+**/
+/** 
+** raleway
+**/
+/*open sans */
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(".././fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(".././fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: opensans-light;
+  src: url(".././fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: opensans-italic;
+  src: url(".././fonts/OpenSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(".././fonts/OpenSans-SemiBold.ttf");
+}
+
+/**
+**/
+/*montserrat */
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(".././fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(".././fonts/Montserrat-Regular.ttf");
+}
+
+/*roboto*/
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(".././fonts/Roboto-Medium_0.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(".././fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(".././fonts/Roboto-Bold.ttf");
+}
+
+/**
+
+
+/**
+** this for setup variable
+**/
+/* change option color */
+:root {
+  --primary: #5CAAF4;
+  --color-text-berita: #070707;
+  --line-and-side: #FDD34C;
+  --text-banner: #FFFFFF;
+  --buton: #073C64;
+  --footer: #073C64;
+  --bg-detail-berita-and-forum: #8E8E8E (9%);
+  --color-menu-bar: #0A0A0A;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
+.status {
+  width: 100vw;
+  height: 1375px !important;
+  background: rgba(142, 142, 142, 0.09);
+  float: left;
+}
+
+.status .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.status .container .colStatus {
+  width: 100%;
+  height: 195px;
+  float: left;
+  background: #FFFFFF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 65px;
+  -webkit-box-shadow: 0px 0px 6px -3.7px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 6px -3.7px rgba(0, 0, 0, 0.6);
+  border-radius: 1.5px;
+}
+
+.status .container .colStatus .inputStatus {
+  width: 1000px;
+  height: 75px;
+  float: left;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.status .container .colStatus .inputStatus input {
+  width: 990px;
+  height: 75px;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #070707 !important;
+  border: none;
+  margin-top: 25px;
+  padding-left: 20px;
+  background: transparent;
+}
+
+.status .container .colStatus .inputStatus input::-webkit-input-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #CECECE;
+}
+
+.status .container .colStatus .inputStatus input::-moz-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #CECECE;
+}
+
+.status .container .colStatus .inputStatus input:-ms-input-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #CECECE;
+}
+
+.status .container .colStatus .inputStatus input:-moz-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #CECECE;
+}
+
+.status .container .send {
+  width: 100%;
+  height: 40px;
+}
+
+.status .container .send .checkbox {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.status .container .send .checkbox input {
+  width: 20px !important;
+  height: 20px;
+  outline: none;
+  float: left;
+}
+
+.status .container .send .checkbox input:nth-child(2) {
+  float: left;
+}

@@ -7,3 +7,8 @@ $(window).scroll(function () {
 		$('.navbar').removeClass('fixed');
 	}
 });
+
+
+$(".popup-trigger").hover(function(){
+	$(".popup-content").toggleClass('popup-active');
+});
