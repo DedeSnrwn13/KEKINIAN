@@ -532,16 +532,16 @@ header .navbar .container .search input {
   outline: none;
   border: none;
   padding-left: 6px;
-  -webkit-transition: 1.5s ease;
-  transition: 1.5s ease;
+  -webkit-transition: 1.5s ease-in;
+  transition: 1.5s ease-in;
   padding-top: 2px;
 }
 
 header .navbar .container .search input:hover {
-  border: 1px solid #073C64;
+  background: rgba(255, 255, 255, 0.5);
   padding-left: 6px;
-  -webkit-transition: 1.5s ease;
-  transition: 1.5s ease;
+  -webkit-transition: 1.5s ease-out;
+  transition: 1.5s ease-out;
 }
 
 header .navbar .container .search img {
