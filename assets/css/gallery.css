@@ -139,8 +139,9 @@ a {
 .gallery .container .title .content-left {
   width: 720px;
   height: 500px;
-  float: left;
+  float: left !important;
   margin-top: 28px;
+  display: inline;
 }
 
 .gallery .container .title .content-left .top {
@@ -239,23 +240,101 @@ a {
 }
 
 .gallery .container .title .content-right {
-  width: 305px;
+  width: 281px;
   height: 700px;
   float: left !important;
-  clear: both;
 }
 
 .gallery .container .title .content-right .title-two {
-  width: 300px;
+  width: 281px;
   height: 76px;
-  float: left;
+  float: left !important;
   border-left: 3px solid #F23E3E;
   background: rgba(142, 142, 142, 0.09);
 }
 
 .gallery .container .title .content-right .title-two p {
   font-family: Roboto-Bold;
-  font-size: 25px;
+  font-size: 21px;
+  letter-spacing: .5px;
   color: #073C64;
   text-transform: uppercase;
+  padding-left: 25px;
+  padding-right: 34px;
+  padding-top: 25px;
+  padding-bottom: 23px;
+}
+
+.gallery .container .title .content-right .img {
+  width: 211px;
+  height: 120px;
+  float: left;
+  margin-top: 40px;
+}
+
+.gallery .container .title .content-right .img img {
+  width: 211px;
+  height: 120px;
+  float: left;
+}
+
+.gallery .container .title .content-right .img .mask {
+  width: 211px;
+  height: 120px;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  position: absolute;
+}
+
+.gallery .container .title .content-right .date {
+  width: 210px;
+  height: 20px;
+  float: left;
+  margin-top: 23px;
+}
+
+.gallery .container .title .content-right .date img {
+  width: 18.67px;
+  height: 17px;
+  float: left;
+}
+
+.gallery .container .title .content-right .date p {
+  font-family: OpenSans-Bold;
+  font-size: 15px;
+  float: left;
+  margin-left: 14.3px;
+  color: #070707;
+}
+
+.gallery .container .title .content-right .content {
+  width: 281px;
+  height: 305px;
+  float: left;
+  margin-top: 23px;
+}
+
+.gallery .container .title .content-right .content .title-content {
+  width: 281px;
+  height: 56px;
+  float: left;
+}
+
+.gallery .container .title .content-right .content .title-content span {
+  font-family: Roboto-Bold;
+  font-size: 23px;
+  color: #073C64;
+}
+
+.gallery .container .title .content-right .content .text-content {
+  width: 250px;
+  height: 236px;
+  float: left;
+  margin-top: 11px;
+}
+
+.gallery .container .title .content-right .content .text-content p {
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #070707;
 }
