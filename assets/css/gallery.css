@@ -112,14 +112,21 @@ a {
   margin: 0 auto;
 }
 
-.gallery .container .title {
-  width: 80px;
-  height: 28px;
-  float: left;
+.gallery .container .gall {
+  width: 100%;
+  height: 800px;
   padding-top: 34px;
+  float: left;
 }
 
-.gallery .container .title span {
+.gallery .container .gall .title {
+  width: 100%;
+  height: 26px;
+  float: left;
+  position: relative;
+}
+
+.gallery .container .gall .title span {
   width: 55px;
   height: 25px;
   font-family: Montserrat-Regular;
@@ -128,124 +135,117 @@ a {
   position: relative;
 }
 
-.gallery .container .title .line {
+.gallery .container .gall .line {
   width: 80px;
   height: 3px;
   background: #FDD34C;
-  margin-top: 2px;
-  position: relative;
+  margin-top: 25px;
+  position: absolute;
+  float: left;
 }
 
-.gallery .container .title .content-left {
-  width: 720px;
+.gallery .container .gall .content-left {
+  width: 690px;
   height: 500px;
   float: left !important;
   margin-top: 28px;
-  display: inline;
 }
 
-.gallery .container .title .content-left .top {
-  width: 720px;
+.gallery .container .gall .content-left .top {
+  width: 650px;
   height: 240px;
   float: left;
 }
 
-.gallery .container .title .content-left .top .content-img-top-left,
-.gallery .container .title .content-left .top .content-img-top-right {
-  width: 352px;
+.gallery .container .gall .content-left .top .content-img-top-left,
+.gallery .container .gall .content-left .top .content-img-top-right {
+  width: 290px;
   height: 240px;
   float: left;
 }
 
-.gallery .container .title .content-left .top .content-img-top-left img,
-.gallery .container .title .content-left .top .content-img-top-right img {
-  width: 352px;
+.gallery .container .gall .content-left .top .content-img-top-left img,
+.gallery .container .gall .content-left .top .content-img-top-right img {
+  width: 290px;
   height: 240px;
   float: left;
 }
 
-.gallery .container .title .content-left .top .content-img-top-left .shadow,
-.gallery .container .title .content-left .top .content-img-top-right .shadow {
-  width: 352px;
+.gallery .container .gall .content-left .top .content-img-top-left .shadow,
+.gallery .container .gall .content-left .top .content-img-top-right .shadow {
+  width: 290px;
   height: 240px;
   background: rgba(0, 0, 0, 0.35);
   z-index: 3;
   position: absolute;
 }
 
-.gallery .container .title .content-left .top .content-img-top-left .shadow span,
-.gallery .container .title .content-left .top .content-img-top-right .shadow span {
-  width: 329px;
+.gallery .container .gall .content-left .top .content-img-top-left .shadow span,
+.gallery .container .gall .content-left .top .content-img-top-right .shadow span {
+  width: 290px;
   height: 56px;
   font-family: Montserrat-Bold;
-  font-size: 23px;
+  font-size: 17px;
   color: #FFFFFF;
-  padding-left: 11.5px;
-  padding-right: 11.5px;
-  padding-top: 155px;
-  padding-bottom: 29px;
   position: absolute;
 }
 
-.gallery .container .title .content-left .top .content-img-top-right {
+.gallery .container .gall .content-left .top .content-img-top-right {
   margin-left: 16px;
 }
 
-.gallery .container .title .content-left .bottom {
-  width: 720px;
+.gallery .container .gall .content-left .bottom {
+  width: 650px;
   height: 240px;
   margin-top: 16px;
   float: left;
 }
 
-.gallery .container .title .content-left .bottom .content-img-bottom-left,
-.gallery .container .title .content-left .bottom .content-img-bottom-right {
-  width: 352px;
+.gallery .container .gall .content-left .bottom .content-img-bottom-left,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right {
+  width: 290px;
   height: 240px;
   float: left;
 }
 
-.gallery .container .title .content-left .bottom .content-img-bottom-left img,
-.gallery .container .title .content-left .bottom .content-img-bottom-right img {
-  width: 352px;
+.gallery .container .gall .content-left .bottom .content-img-bottom-left img,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right img {
+  width: 290px;
   height: 240px;
   float: left;
 }
 
-.gallery .container .title .content-left .bottom .content-img-bottom-left .shadow,
-.gallery .container .title .content-left .bottom .content-img-bottom-right .shadow {
-  width: 352px;
+.gallery .container .gall .content-left .bottom .content-img-bottom-left .shadow,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right .shadow {
+  width: 290px;
   height: 240px;
   background: rgba(0, 0, 0, 0.35);
   z-index: 3;
   position: absolute;
 }
 
-.gallery .container .title .content-left .bottom .content-img-bottom-left .shadow span,
-.gallery .container .title .content-left .bottom .content-img-bottom-right .shadow span {
-  width: 329px;
+.gallery .container .gall .content-left .bottom .content-img-bottom-left .shadow span,
+.gallery .container .gall .content-left .bottom .content-img-bottom-right .shadow span {
+  width: 290px;
   height: 56px;
   font-family: Montserrat-Bold;
-  font-size: 23px;
+  font-size: 17px;
   color: #FFFFFF;
-  padding-left: 11.5px;
-  padding-right: 11.5px;
-  padding-top: 155px;
-  padding-bottom: 29px;
   position: absolute;
 }
 
-.gallery .container .title .content-left .bottom .content-img-bottom-right {
+.gallery .container .gall .content-left .bottom .content-img-bottom-right {
   margin-left: 16px;
 }
 
-.gallery .container .title .content-right {
+.gallery .container .gall .content-right {
   width: 281px;
   height: 700px;
-  float: left !important;
+  float: left;
+  clear: both;
 }
 
-.gallery .container .title .content-right .title-two {
+.gallery .container .gall .content-right .title-two {
   width: 281px;
   height: 76px;
   float: left !important;
@@ -253,32 +253,28 @@ a {
   background: rgba(142, 142, 142, 0.09);
 }
 
-.gallery .container .title .content-right .title-two p {
+.gallery .container .gall .content-right .title-two p {
   font-family: Roboto-Bold;
   font-size: 21px;
   letter-spacing: .5px;
   color: #073C64;
   text-transform: uppercase;
-  padding-left: 25px;
-  padding-right: 34px;
-  padding-top: 25px;
-  padding-bottom: 23px;
 }
 
-.gallery .container .title .content-right .img {
+.gallery .container .gall .content-right .img {
   width: 211px;
   height: 120px;
   float: left;
   margin-top: 40px;
 }
 
-.gallery .container .title .content-right .img img {
+.gallery .container .gall .content-right .img img {
   width: 211px;
   height: 120px;
   float: left;
 }
 
-.gallery .container .title .content-right .img .mask {
+.gallery .container .gall .content-right .img .mask {
   width: 211px;
   height: 120px;
   background: rgba(0, 0, 0, 0.2);
@@ -286,20 +282,20 @@ a {
   position: absolute;
 }
 
-.gallery .container .title .content-right .date {
+.gallery .container .gall .content-right .date {
   width: 210px;
   height: 20px;
   float: left;
   margin-top: 23px;
 }
 
-.gallery .container .title .content-right .date img {
+.gallery .container .gall .content-right .date img {
   width: 18.67px;
   height: 17px;
   float: left;
 }
 
-.gallery .container .title .content-right .date p {
+.gallery .container .gall .content-right .date p {
   font-family: OpenSans-Bold;
   font-size: 15px;
   float: left;
@@ -307,33 +303,33 @@ a {
   color: #070707;
 }
 
-.gallery .container .title .content-right .content {
+.gallery .container .gall .content-right .content {
   width: 281px;
   height: 305px;
   float: left;
   margin-top: 23px;
 }
 
-.gallery .container .title .content-right .content .title-content {
+.gallery .container .gall .content-right .content .title-content {
   width: 281px;
   height: 56px;
   float: left;
 }
 
-.gallery .container .title .content-right .content .title-content span {
+.gallery .container .gall .content-right .content .title-content span {
   font-family: Roboto-Bold;
   font-size: 23px;
   color: #073C64;
 }
 
-.gallery .container .title .content-right .content .text-content {
+.gallery .container .gall .content-right .content .text-content {
   width: 250px;
   height: 236px;
   float: left;
   margin-top: 11px;
 }
 
-.gallery .container .title .content-right .content .text-content p {
+.gallery .container .gall .content-right .content .text-content p {
   font-family: OpenSans-Regular;
   font-size: 15px;
   color: #070707;

@@ -346,13 +346,17 @@ header .navbar .container .logo #logo-text {
   float: left;
   margin-left: 5px !important;
   cursor: pointer;
+  margin-top: 3px !important;
 }
 
 header .navbar .container .logo #logo-text .logo #logo-text img {
   width: 87px;
   height: 22px;
   float: left;
-  margin-top: 3px !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
 }
 
 header .navbar .container .menu-bar {
