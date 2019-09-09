@@ -439,7 +439,19 @@ a {
 }
 
 .box .content-right img {
-  width: 778px;
+  width: 100%;
   height: 100%;
   float: left;
+}
+
+@media screen and (max-width: 1440px) {
+  .left {
+    padding-top: 60px !important;
+  }
+  .left .form input {
+    height: 45px !important;
+  }
+  .left .form .confirm {
+    width: 100% !important;
+  }
 }

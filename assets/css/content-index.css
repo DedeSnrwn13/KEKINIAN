@@ -89,7 +89,9 @@
   width: 100vw;
   height: 472px;
   background: url("./../images/Group 87.png");
-  background-size: 1366px 472px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 472px;
   display: block;
 }
 
@@ -101,7 +103,7 @@
 .banner .container .text-banner {
   width: 709px;
   height: 231px;
-  padding-top: 130px;
+  padding-top: 100px;
   float: left;
 }
 
@@ -146,10 +148,14 @@
   display: -webkit-box;
   display: flex;
   position: absolute;
-  padding-left: 13px;
+  padding-left: 11px;
   padding-right: 10px;
-  padding-top: 13px;
-  padding-bottom: 10px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+
+.banner .container .text-banner .text-content-banner .btn-readMore-banner span#text-btn-readMore-banner::hover {
+  background: rgba(130, 130, 130, 0.02);
 }
 
 .banner .container .text-banner .text-content-banner .btn-readMore-banner span#text-btn-readMore-banner a {
@@ -241,9 +247,10 @@
 .content-hoax .container #content-hoax-right .side-top-right {
   width: 146px;
   height: 112px;
-  margin-left: 291px;
+  margin-left: 300px;
   position: absolute;
   margin-top: -21px;
+  float: right;
 }
 
 .content-hoax .container #content-hoax-right .side-top-right img {
@@ -401,23 +408,23 @@
 }
 
 .berita-lainnya .container .content-berita-lainnya {
-  width: 100vw;
+  width: 100%;
   height: 300px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya {
-  width: 351.65px;
+  width: 345px;
   height: 208.30px;
   float: left;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya img {
-  width: 351.65px;
+  width: 345px;
   height: 208.30px;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low {
-  width: 351.65px;
+  width: 345px;
   height: 60px;
 }
 
@@ -462,7 +469,7 @@
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(2),
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya:nth-child(3) {
-  margin-left: 15.8px;
+  margin-left: 15px;
 }
 
 .berita-lainnya .container .button-news {

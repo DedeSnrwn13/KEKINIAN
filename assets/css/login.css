@@ -529,114 +529,142 @@ a {
   float: left;
 }
 
-@media screen and (max-width: 1440px) {
-  html, body {
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
-  body {
-    overflow: hidden;
-  }
-  a {
-    display: inline-block;
-  }
-}
-
 @media screen and (max-width: 1020px) {
   .content-left {
     width: 45%;
   }
-  .box-content-left {
-    width: 300px !important;
+  .content-left .box-content-left {
+    width: 400px !important;
     padding-left: 50px !important;
-    padding-top: 25px !important;
+    padding-top: 70px !important;
     padding-bottom: 25px !important;
   }
-  .box-content-left .logos {
+  .content-left .box-content-left .logos {
     width: 240px !important;
     height: 80px !important;
     float: left;
   }
-  .box-content-left .logos span {
+  .content-left .box-content-left .logos span {
     font-size: 20px !important;
   }
-  .box-content-left .logos span:nth-child(2) {
+  .content-left .box-content-left .logos span:nth-child(2) {
     margin-top: 8px;
   }
-  .box-content-left .logos p {
+  .content-left .box-content-left .logos p {
     width: 200px;
     height: 15px;
     font-size: 13px !important;
   }
-  .box-content-left .email {
+  .content-left .box-content-left .email {
     width: 260px;
     height: 55px;
     margin-top: 8px !important;
     display: block;
   }
-  .box-content-left .email span {
+  .content-left .box-content-left .email span {
     width: 100% !important;
     height: 15px !important;
     font-size: 12px !important;
   }
-  .box-content-left .email input {
+  .content-left .box-content-left .email input {
     width: 260px !important;
     height: 15px !important;
     margin-left: 39px !important;
   }
-  .box-content-left .email input::-webkit-input-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .email input::-webkit-input-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .email input::-moz-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .email input::-moz-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .email input:-ms-input-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .email input:-ms-input-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .email input:-moz-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .email input:-moz-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .pass {
+  .content-left .box-content-left .pass {
     width: 260px;
     height: 55px;
     margin-top: 8px !important;
     display: block;
   }
-  .box-content-left .pass span {
+  .content-left .box-content-left .pass span {
     width: 100% !important;
     height: 15px !important;
     font-size: 12px !important;
   }
-  .box-content-left .pass input {
+  .content-left .box-content-left .pass input {
     width: 260px !important;
     height: 15px !important;
     margin-left: 20px !important;
   }
-  .box-content-left .pass input::-webkit-input-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .pass input::-webkit-input-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .pass input::-moz-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .pass input::-moz-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .pass input:-ms-input-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .pass input:-ms-input-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .pass input:-moz-placeholder::-webkit-input-placeholder {
+  .content-left .box-content-left .pass input:-moz-placeholder::-webkit-input-placeholder {
     font-size: 13px !important;
   }
-  .box-content-left .confirm {
+  .content-left .box-content-left .confirm {
     width: 365px !important;
     height: 16px !important;
     float: left;
     margin-top: 0px !important;
   }
-  .box-content-left .confirm .rememberme {
+  .content-left .box-content-left .confirm .rememberme {
     margin-top: 0 !important;
   }
-  .box-content-left .confirm .forgot-pass {
+  .content-left .box-content-left .confirm .forgot-pass {
     margin-top: 0 !important;
+  }
+  .content-left .box-content-left a .btn {
+    width: 355px !important;
+  }
+  .content-left .box-content-left a .btn span {
+    padding-left: 150px !important;
+  }
+  .content-left .box-content-left .or {
+    width: 355px !important;
+  }
+  .content-left .box-content-left .or img {
+    width: 140px !important;
+  }
+  .content-left .box-content-left .or img:nth-child(1) {
+    margin-left: 5px !important;
+  }
+  .content-left .box-content-left .or span {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .content-left .box-content-left .log-google,
+  .content-left .box-content-left .log-fb {
+    width: 352px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-left {
+    padding-top: 40px !important;
+  }
+  .content-left .confirm {
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .box div.content-right img {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .box .content-right {
+    display: none !important;
   }
 }

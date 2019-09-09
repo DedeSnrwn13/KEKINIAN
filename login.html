@@ -34,7 +34,7 @@
 						</div>
 					</div>
 					<a href="index.html">
-						<div class="btn">
+						<div id="logIn" class="btn">
 							<span>Masuk</span>
 						</div>
 					</a>
@@ -68,10 +68,17 @@
 					</div>
 				</div>
 			</div>
-			<div class="content-right">
+			<div id="content-right" class="content-right">
 				<img src="assets/images/room-7n8UzfK4B9M-unsplash.png" alt="">
 			</div>
 		</div>
 
 </body>
+<script>
+	const login = document.getElementById("logIn");
+
+	login.addEventListener("load", function() {
+		alert("Log In Anda Berhasil!");
+	});
+</script>
 </html>

@@ -286,6 +286,14 @@ a {
   color: #070707;
 }
 
+.news .container .news-low .left .news-low-right .text-desc p a,
+.news .container .news-low .right .news-low-right .text-desc p a {
+  text-decoration: none;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  color: #070707;
+}
+
 .news .container .news-low .left .news-low-right .btn-readMore-news-low,
 .news .container .news-low .right .news-low-right .btn-readMore-news-low {
   width: 125px;
