@@ -658,13 +658,73 @@ a {
 }
 
 @media screen and (max-width: 420px) {
-  .box div.content-right img {
+  .content-left {
+    width: 100vw !important;
+    height: 100vh !important;
+    float: left !important;
+    padding-top: 0 !important;
+  }
+  .content-left .box-content-left {
+    padding-top: 50px !important;
+  }
+  .content-right {
+    display: none !important;
+  }
+  .content-right img {
     display: none !important;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .box .content-right {
+  .content-left {
+    width: 100vw !important;
+    height: 598px !important;
+  }
+  .content-left .box-content-left {
+    width: 275px !important;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 28.5px !important;
+  }
+  .content-left .box-content-left .logos, .content-left .box-content-left .email, .content-left .box-content-left .pass, .content-left .box-content-left .confirm, .content-left .box-content-left .logIn, .content-left .box-content-left .or, .content-left .box-content-left .log-google, .content-left .box-content-left .log-fb, .content-left .box-content-left .question {
+    width: 275px !important;
+  }
+  .content-left .box-content-left .logos {
+    height: 114px !important;
+  }
+  .content-left .box-content-left .logos span {
+    width: 100% !important;
+    height: 37px !important;
+    font-size: 30px !important;
+  }
+  .content-left .box-content-left .logos span:nth-child(2) {
+    margin-top: 15px !important;
+  }
+  .content-left .box-content-left .logos p {
+    width: 100% !important;
+    height: 20px !important;
+    font-size: 15px !important;
+    margin-top: 5px !important;
+  }
+  .content-left .box-content-left .email,
+  .content-left .box-content-left .pass {
+    height: 62.51px !important;
+  }
+  .content-left .box-content-left .email input,
+  .content-left .box-content-left .pass input {
+    margin-left: 0 !important;
+    width: 100%;
+    margin-top: 8.5px;
+  }
+  .content-left .box-content-left .pass {
+    margin-top: 18px !important;
+  }
+  .content-left .box-content-left .confirm {
+    width: 100% !important;
+    height: 18px !important;
+    margin-top: 5px !important;
+  }
+  .content-right {
     display: none !important;
   }
 }

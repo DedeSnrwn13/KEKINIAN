@@ -88,10 +88,9 @@
 .banner {
   width: 100vw;
   height: 472px;
-  background: url("./../images/Group 87.png");
+  background: url("./../images/anner.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100vw 472px;
+  background-size: 100% 472px;
   display: block;
 }
 
@@ -148,14 +147,18 @@
   display: -webkit-box;
   display: flex;
   position: absolute;
-  padding-left: 11px;
+  padding-left: 12px;
   padding-right: 10px;
-  padding-top: 11.5px;
+  padding-top: 11px;
   padding-bottom: 11.5px;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
-.banner .container .text-banner .text-content-banner .btn-readMore-banner span#text-btn-readMore-banner::hover {
-  background: rgba(130, 130, 130, 0.02);
+.banner .container .text-banner .text-content-banner .btn-readMore-banner span#text-btn-readMore-banner:hover {
+  background: rgba(120, 120, 120, 0.8);
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .banner .container .text-banner .text-content-banner .btn-readMore-banner span#text-btn-readMore-banner a {
@@ -395,6 +398,10 @@
   text-decoration: none;
 }
 
+.berita-utama .container .pagination {
+  display: none;
+}
+
 .berita-lainnya {
   width: 100vw;
   height: 450px;
@@ -584,6 +591,28 @@
 .gallery .container .gal-img .gallery-right .img-top {
   width: 525px;
   height: 279px;
+  position: relative;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.gallery .container .gal-img .gallery-right .img-top:hover:before {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
+}
+
+.gallery .container .gal-img .gallery-right .img-top:before {
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: 'jjjjjjjjj';
+  opacity: 0;
+  position: absolute;
 }
 
 .gallery .container .gal-img .gallery-right .img-top img {
