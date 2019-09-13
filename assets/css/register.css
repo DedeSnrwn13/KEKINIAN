@@ -130,8 +130,7 @@ a {
   margin-left: 120px;
   margin-right: 92px;
   float: left;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 30px !important;
 }
 
 .box .content-left .left .title {
@@ -365,7 +364,7 @@ a {
 
 .box .content-left .left .form .ttl .confirm input {
   width: 12px;
-  height: 12px;
+  height: 12px !important;
   border-radius: 3px;
   background: transparent;
   border: 2px solid #BCBCBC;
