@@ -95,6 +95,7 @@ html, body {
 
 body {
   overflow: hidden;
+  background: #FFFFFF;
 }
 
 a {
@@ -104,7 +105,6 @@ a {
 .status {
   width: 100vw;
   height: 1375px !important;
-  background: rgba(142, 142, 142, 0.09);
   float: left;
 }
 
@@ -130,8 +130,6 @@ a {
   width: 1000px;
   height: 75px;
   float: left;
-  margin-left: 26px;
-  margin-right: 26px;
 }
 
 .status .container .colStatus .inputStatus input {
@@ -141,9 +139,11 @@ a {
   font-size: 14px;
   color: #070707 !important;
   border: none;
-  margin-top: 25px;
-  padding-left: 20px;
+  margin-top: 20px;
+  padding-left: 46px;
+  margin-right: 46px;
   background: transparent;
+  outline: none;
 }
 
 .status .container .colStatus .inputStatus input::-webkit-input-placeholder::-webkit-input-placeholder {
@@ -170,24 +170,276 @@ a {
   color: #CECECE;
 }
 
-.status .container .send {
+.status .container .colStatus .send {
   width: 100%;
   height: 40px;
-}
-
-.status .container .send .checkbox {
-  width: 20px;
-  height: 20px;
   float: left;
+  margin-top: 50px;
 }
 
-.status .container .send .checkbox input {
-  width: 20px !important;
-  height: 20px;
+.status .container .colStatus .send .checkbox {
+  width: 40px;
+  height: 16px;
+  float: left;
+  display: block;
+  margin-left: 46px;
+  margin-top: 22px;
+}
+
+.status .container .colStatus .send .checkbox div {
+  width: 15px !important;
+  height: 16px;
   outline: none;
   float: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  border: 1px solid #707070;
 }
 
-.status .container .send .checkbox input:nth-child(2) {
+.status .container .colStatus .send .checkbox div:nth-child(2) {
+  width: 15px !important;
+  height: 16px;
+  outline: none;
+  float: right;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+.status .container .colStatus .send a.submit {
+  width: 128px;
+  height: 40px;
+  background: #073C64;
+  float: right;
+  margin-right: 79px;
+  display: block;
+  text-align: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  font-family: Montserrat-Regular;
+  font-size: 14px;
+}
+
+.status .container .colStatus .send a.submit span {
+  display: block;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.status .container .topStatus {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
   float: left;
+  border-bottom: 0.4px solid rgba(100, 100, 100, 0.99);
+  margin-top: 89px;
+}
+
+.status .container .topStatus a {
+  text-decoration: none;
+  color: #0A0A0A;
+  font-family: Roboto-Thin;
+  font-size: 15px;
+  margin-left: 46px;
+  font-weight: 900;
+  margin-top: 5px;
+}
+
+.status .container .statusOne {
+  width: 946px;
+  height: 300px;
+  float: left;
+  background: #FFFFFF;
+  margin-left: 46px;
+  margin-top: 24px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px -3.7px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 3px -3.7px rgba(0, 0, 0, 0.6);
+}
+
+.status .container .statusOne .top {
+  width: 100%;
+  height: 90px;
+  float: left;
+}
+
+.status .container .statusOne .top img {
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+
+.status .container .statusOne .top .id {
+  width: 80%;
+  height: 54px;
+  float: left;
+  display: block;
+}
+
+.status .container .statusOne .top .id span {
+  margin-left: 33px;
+}
+
+.status .container .statusOne .top .id span:nth-child(1) {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+}
+
+.status .container .statusOne .top .id span:nth-child(2) {
+  font-family: Roboto-Thin;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.status .container .statusOne .bottom {
+  width: 825px;
+  height: 142px;
+  float: left;
+  margin-left: 120px;
+}
+
+.status .container .statusOne .bottom p {
+  font-family: Roboto-Thin;
+  font-size: 16px;
+  text-align: left;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+.status .container .statusOne .react {
+  width: 946px;
+  height: 35px;
+  float: left;
+  margin-left: 120px;
+}
+
+.status .container .statusOne .react img {
+  width: 32px;
+  height: 31px;
+  float: left;
+}
+
+.status .container .statusOne .line {
+  width: 100%;
+  height: 4px;
+  float: left;
+  margin-top: 24px;
+  border-bottom: 0.4px solid rgba(100, 100, 100, 0.99);
+}
+
+.status .container .statusTwo {
+  width: 947px;
+  height: 500px;
+  float: left;
+  background: #FFFFFF;
+  margin-left: 46px;
+  margin-top: 24px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 3px -3.7px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 3px -3.7px rgba(0, 0, 0, 0.6);
+}
+
+.status .container .statusTwo .top {
+  width: 100%;
+  height: 90px;
+  float: left;
+}
+
+.status .container .statusTwo .top img {
+  width: 90px;
+  height: 90px;
+  float: left;
+}
+
+.status .container .statusTwo .top .id {
+  width: 80%;
+  height: 54px;
+  float: left;
+  display: block;
+}
+
+.status .container .statusTwo .top .id span {
+  margin-left: 33px;
+}
+
+.status .container .statusTwo .top .id span:nth-child(1) {
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+}
+
+.status .container .statusTwo .top .id span:nth-child(2) {
+  font-family: Roboto-Thin;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.status .container .statusTwo .bottom {
+  width: 825px;
+  height: 308px;
+  float: left;
+  margin-left: 120px;
+}
+
+.status .container .statusTwo .bottom .left {
+  width: 384px;
+  height: 295px;
+  float: left;
+}
+
+.status .container .statusTwo .bottom .left img {
+  float: left;
+}
+
+.status .container .statusTwo .bottom .right {
+  width: 405px;
+  height: 295px;
+  float: right;
+}
+
+.status .container .statusTwo .bottom .right p {
+  font-family: Roboto-Thin;
+  font-size: 16px;
+  text-align: left;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.status .container .statusTwo .bottom .react {
+  width: 946px;
+  height: 35px;
+  float: left;
+  margin-top: 53px;
+}
+
+.status .container .statusTwo .bottom .react img {
+  width: 32px;
+  height: 31px;
+  float: left;
+}
+
+.status .container .line {
+  width: 100%;
+  height: 4px;
+  float: left;
+  border-bottom: 0.4px solid rgba(100, 100, 100, 0.99);
 }

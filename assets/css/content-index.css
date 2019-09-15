@@ -88,7 +88,7 @@
 .banner {
   width: 100vw;
   height: 472px;
-  background: url("./../images/anner.png");
+  background: url("./../images/bannerompress90.jpg");
   background-repeat: no-repeat;
   background-size: 100% 472px;
   display: block;
@@ -194,9 +194,19 @@
 }
 
 .content-hoax .container #content-hoax-left .text-title span#text-title-hoax {
+  width: 100%;
   font-size: 30px;
   color: #073C64;
   font-family: OpenSans-Bold;
+  float: left;
+}
+
+.content-hoax .container #content-hoax-left .text-title .line {
+  width: 76px;
+  height: 3px;
+  background: #FDD34C;
+  display: block;
+  float: left;
 }
 
 .content-hoax .container #content-hoax-left .text-title #text-content-hoax {
@@ -206,6 +216,7 @@
   padding-right: 0px;
   padding-top: 17px;
   padding-bottom: 18px;
+  float: left;
 }
 
 .content-hoax .container #content-hoax-left .text-title #text-content-hoax span {
@@ -229,6 +240,7 @@
   height: 39px;
   background: #073C64;
   margin-top: 30px;
+  float: left;
 }
 
 .content-hoax .container #content-hoax-left .text-title .btn-readMore-hoax span#text-btn-readMore-hoax {
@@ -314,9 +326,19 @@
 }
 
 .berita-utama .container .berita-left span {
+  width: 100%;
   font-family: Montserrat-Bold;
   font-size: 30px;
   color: #073C64;
+  float: left;
+}
+
+.berita-utama .container .berita-left .line {
+  width: 76px;
+  height: 3px;
+  background: #FDD34C;
+  display: block;
+  float: left;
 }
 
 .berita-utama .container .berita-left img {
@@ -456,10 +478,14 @@
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span {
   width: 287px;
   height: 54px;
-  color: #2A2A2B;
   font-family: Montserrat-Regular;
   font-size: 18px;
   text-align: left;
+}
+
+.berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .text-berita-low span a {
+  text-decoration: none;
+  color: #2A2A2B;
 }
 
 .berita-lainnya .container .content-berita-lainnya .low-content-berita-lainnya .btn-readMore-berita-lainnya {
@@ -519,18 +545,9 @@
   float: left;
 }
 
+.gallery .pagination,
 .gallery .pagination1,
-.gallery .pagination {
-  display: none !important;
-}
-
-.gallery .pagination1 .prev1,
-.gallery .pagination .prev1 {
-  display: none !important;
-}
-
-.gallery .pagination1 .nect1,
-.gallery .pagination .nect1 {
+.gallery .pagination2 {
   display: none !important;
 }
 
@@ -546,6 +563,14 @@
   font-size: 30px;
   float: left;
   color: #073C64;
+}
+
+.gallery .container .line {
+  width: 76px;
+  height: 3px;
+  background: #FDD34C;
+  display: block;
+  float: left;
 }
 
 .gallery .container .gal-img {
@@ -642,4 +667,65 @@
           align-items: center;
   border: 2px solid #C6C6C6;
   padding: 3px;
+}
+
+.video {
+  width: 100%;
+  height: 756px;
+  float: left;
+}
+
+.video .container {
+  max-width: 1066px;
+  margin: 0 auto;
+}
+
+.video .container .tvideo {
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+
+.video .container .tvideo span {
+  width: 100%;
+  height: 41px;
+  font-family: OpenSans-Bold;
+  font-size: 30px;
+  float: left;
+  color: #073C64;
+  position: relative;
+}
+
+.video .container .tvideo .line {
+  width: 76px;
+  height: 3px;
+  background: #FDD34C;
+  display: block;
+  float: left;
+}
+
+.video .container .vid {
+  width: 100%;
+  height: 600px;
+  float: left;
+  margin-top: 15px;
+  outline: none;
+  background: #7B7B7B;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.video .container img {
+  width: 75px;
+  height: 65px;
 }

@@ -301,6 +301,7 @@ a {
   height: 16px;
   float: right;
   margin-top: 10px;
+  text-align: right;
 }
 
 .box .content-left .box-content-left .confirm .forgot-pass span {
@@ -313,38 +314,28 @@ a {
   color: #073C64;
 }
 
-.box .content-left .box-content-left a {
+.box .content-left .box-content-left a#logIn {
+  width: 385px;
   text-decoration: none;
   color: #FFFFFF;
   height: 44px;
-}
-
-.box .content-left .box-content-left a #logIn.btn {
-  width: 385px;
-  height: 44px;
   float: left;
   background: #073C64;
-  margin-top: 15px !important;
   text-align: center;
   -webkit-transition: .5s;
   transition: .5s;
-}
-
-.box .content-left .box-content-left a #logIn.btn span {
-  width: 50px;
-  height: 20px;
   font-family: Montserrat-Regular;
   font-size: 16px;
-  margin-top: 11px !important;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  padding-left: 170px;
+  margin-top: 25px;
+}
+
+.box .content-left .box-content-left a#logIn span {
+  display: block;
   -webkit-align-items: center;
   -ms-flex-align: center;
   -webkit-box-align: center;
           align-items: center;
+  margin-top: 12px;
 }
 
 .box .content-left .box-content-left .btn:hover {
@@ -354,31 +345,15 @@ a {
 }
 
 .box .content-left .box-content-left .or {
-  width: 100%;
+  width: 95% !important;
   height: 16px;
-  float: left;
   padding-top: 15px;
-  padding-left: 3px;
-}
-
-.box .content-left .box-content-left .or img {
-  width: 170px;
-  height: 1px;
-  color: #707070;
-  float: left;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-.box .content-left .box-content-left .or span {
-  width: 30px;
-  height: 16px;
   float: left;
   font-family: Montserrat-Regular;
   font-size: 13px;
   color: #BCBCBC;
-  margin-left: 5px;
-  margin-right: 5px;
+  text-align: center;
+  display: block;
 }
 
 .box .content-left .box-content-left .log-google {
@@ -691,7 +666,7 @@ a {
 @media screen and (max-width: 360px) {
   .content-left {
     width: 100vw !important;
-    height: 598px !important;
+    height: 570px !important;
     padding-top: 0 !important;
     padding-left: 0 !important;
   }
@@ -741,12 +716,15 @@ a {
     margin-top: 18px !important;
   }
   .content-left .box-content-left .confirm {
-    width: 255px !important;
+    width: 98% !important;
     height: 18px !important;
     margin-top: 5px !important;
   }
+  .content-left .box-content-left .confirm .forgot-pass {
+    float: right !important;
+  }
   .content-left .box-content-left #logIn {
-    width: 275px !important;
+    width: 270px !important;
   }
   .content-right {
     display: none !important;
