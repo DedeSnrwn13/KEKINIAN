@@ -649,7 +649,7 @@ a {
 @media screen and (max-width: 420px) {
   .content-left {
     width: 100vw !important;
-    height: 100vh !important;
+    height: 580px !important;
     float: left !important;
   }
   .content-left .box-content-left {
