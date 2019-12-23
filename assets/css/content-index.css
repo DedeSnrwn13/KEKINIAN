@@ -85,6 +85,22 @@
   --color-menu-bar: #0A0A0A;
 }
 
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+}
+
 .banner {
   width: 100%;
   height: 490px;
@@ -175,7 +191,7 @@
 
 .content-hoax .container #content-hoax-left .text-title .line {
   width: 76px;
-  height: 3px;
+  height: 4px;
   background: #FDD34C;
   position: relative;
   float: left;
@@ -249,7 +265,7 @@
 
 .berita-utama .container .berita-left .line {
   width: 76px;
-  height: 3px;
+  height: 4px;
   background: #FDD34C;
   float: left;
   position: relative;
@@ -479,7 +495,7 @@
 
 .gallery .container .line {
   width: 76px;
-  height: 3px;
+  height: 4px;
   background: #FDD34C;
   display: block;
   float: left;
@@ -594,7 +610,7 @@
 
 .video .container .tvideo .line {
   width: 76px;
-  height: 3px;
+  height: 4px;
   background: #FDD34C;
   display: block;
   float: left;
