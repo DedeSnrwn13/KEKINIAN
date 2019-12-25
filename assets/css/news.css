@@ -217,12 +217,20 @@ a {
 .news .container .popular {
   width: 100%;
   float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 80px;
+  margin-bottom: 0;
 }
 
 .news .container .popular span {
+  width: 100%;
+  float: left;
   font-family: Montserrat-Bold;
   font-size: 30px;
   color: #073C64;
+  margin-top: 30px;
+  display: block;
 }
 
 .news .container .popular .line {
@@ -232,4 +240,346 @@ a {
   position: relative;
   float: left;
   margin-top: 10px;
+}
+
+.news .container .popular .content-berita-lainnya {
+  width: 100%;
+  float: left;
+  margin-top: 10.5px;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya {
+  width: 341px;
+  height: 315px;
+  float: left;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya img {
+  float: left;
+  width: 341px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 208px;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya .text-berita-low {
+  float: left;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya .text-berita-low p {
+  color: #B7B5B5;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya .text-berita-low a {
+  text-decoration: none;
+  color: #2A2A2B;
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  text-align: left;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya a.btn-low {
+  float: left;
+  font-family: OpenSans-Semibold;
+  font-size: 12px;
+  color: #073C64;
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5.7px;
+  margin-bottom: 0;
+}
+
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya:nth-child(2),
+.news .container .popular .content-berita-lainnya .low-content-berita-lainnya:nth-child(3) {
+  margin-left: 14.6px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.news .container .article {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.news .container .article span {
+  width: 100%;
+  float: left;
+  font-family: Montserrat-Bold;
+  font-size: 30px;
+  color: #073C64;
+  margin-top: 30px;
+  display: block;
+}
+
+.news .container .article .line {
+  width: 76px;
+  height: 4px;
+  background: #FDD34C;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+}
+
+.news .container .article .content-berita-lainnya {
+  width: 100%;
+  float: left;
+  margin-top: 10.5px;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya {
+  width: 341px;
+  height: 315px;
+  float: left;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya img {
+  float: left;
+  width: 341px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 208px;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya .text-berita-low {
+  float: left;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya .text-berita-low p {
+  color: #B7B5B5;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya .text-berita-low a {
+  text-decoration: none;
+  color: #2A2A2B;
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  text-align: left;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya a.btn-low {
+  float: left;
+  font-family: OpenSans-Semibold;
+  font-size: 12px;
+  color: #073C64;
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5.7px;
+  margin-bottom: 0;
+}
+
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya:nth-child(2),
+.news .container .article .content-berita-lainnya .low-content-berita-lainnya:nth-child(3) {
+  margin-left: 14.6px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.news .container .news-video {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.news .container .news-video span {
+  width: 100%;
+  float: left;
+  font-family: Montserrat-Bold;
+  font-size: 30px;
+  color: #073C64;
+  margin-top: 30px;
+  display: block;
+}
+
+.news .container .news-video .line {
+  width: 76px;
+  height: 4px;
+  background: #FDD34C;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+}
+
+.news .container .news-video .content-vid {
+  width: 100%;
+  float: left;
+  margin-top: 10.5px;
+  cursor: default;
+}
+
+.news .container .news-video .content-vid .low-content-vid {
+  width: 341px;
+  height: 315px;
+  float: left;
+}
+
+.news .container .news-video .content-vid .low-content-vid .thumb {
+  float: left;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
+.news .container .news-video .content-vid .low-content-vid .thumb img {
+  float: left;
+  width: 341px;
+  height: 208px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  position: relative;
+}
+
+.news .container .news-video .content-vid .low-content-vid .thumb img.hitam {
+  width: 341px;
+  height: 208px;
+  position: absolute;
+  -o-object-fit: cover;
+  object-fit: cover;
+  float: left;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.news .container .news-video .content-vid .low-content-vid .thumb .video-click {
+  position: absolute;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  margin-left: 136px;
+  margin-right: 136px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.news .container .news-video .content-vid .low-content-vid .thumb .video-click img#vid-1 {
+  position: absolute;
+  z-index: 5;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.news .container .news-video .content-vid .low-content-vid .thumb .video-click img#vid-1:hover {
+  width: 75px;
+  height: 75px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.news .container .news-video .content-vid .low-content-vid .text-vid-low {
+  float: left;
+}
+
+.news .container .news-video .content-vid .low-content-vid .text-vid-low p {
+  color: #B7B5B5;
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.news .container .news-video .content-vid .low-content-vid .text-vid-low a {
+  text-decoration: none;
+  color: #2A2A2B;
+  font-family: OpenSans-Regular;
+  font-size: 18px;
+  text-align: left;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 7px;
+  margin-bottom: 0;
+}
+
+.news .container .news-video .content-vid .low-content-vid a.btn-vid {
+  float: left;
+  font-family: OpenSans-Semibold;
+  font-size: 12px;
+  color: #073C64;
+  text-decoration: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5.7px;
+  margin-bottom: 0;
+}
+
+.news .container .news-video .content-vid .low-content-vid:nth-child(2),
+.news .container .news-video .content-vid .low-content-vid:nth-child(3) {
+  margin-left: 14.6px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: left;
+}
+
+.news .container .pagination {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.news .container .pagination p:nth-child(1) {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  color: #073C64;
+  cursor: pointer;
+}
+
+.news .container .pagination p:nth-child(2) {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+  color: #8B8B8B;
+  cursor: pointer;
 }
