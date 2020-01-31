@@ -325,221 +325,130 @@ a {
   display: inline-block;
 }
 
-.banner {
-  width: 100%;
-  height: 490px;
-  background: url("./../images/bannerompress90.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.box {
   float: left;
-  -o-object-position: center;
-  object-position: center;
-  -o-object-fit: cover;
-  object-fit: cover;
+  width: 100%;
 }
 
-.banner .container {
+.box .container {
   max-width: 78%;
   margin: 0 auto;
 }
 
-.banner .container .text-banner {
+.box .container .link {
+  float: left;
   width: 100%;
-  text-align: center;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 191px;
-  margin-bottom: 0;
 }
 
-.banner .container .text-banner span {
-  font-family: OpenSans-Regular;
-  font-size: 50px;
-  color: #FFFFFF;
-}
-
-.banner .container .text-banner p {
-  font-family: OpenSans-Regular;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-.content-one {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 80px;
-  margin-bottom: 0;
-}
-
-.content-one .container {
-  max-width: 78%;
-  margin: 0 auto;
-}
-
-.content-one .container span {
-  width: 100%;
-  float: left;
-  font-family: OpenSans-Regular;
-  font-size: 25px;
-  color: #2A2A2B;
-  text-transform: uppercase;
-}
-
-.content-one .container .line {
-  width: 167.5px;
-  height: 3px;
-  background: #FDD34C;
-  position: relative;
-  float: left;
-  margin-top: 10px;
-}
-
-.content-one .container p {
-  float: left;
-  font-family: OpenSans-Regular;
-  font-size: 18px;
-  color: #2A2A2B;
-  margin-top: 10.5px;
-}
-
-.content-two {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 110px;
-  margin-bottom: 0;
-}
-
-.content-two .container {
-  max-width: 78%;
-  margin: 0 auto;
-}
-
-.content-two .container .what-one,
-.content-two .container .what-two,
-.content-two .container .why {
-  width: unset;
-  float: left;
-}
-
-.content-two .container .what-one span,
-.content-two .container .what-two span,
-.content-two .container .why span {
-  font-family: OpenSans-Regular;
-  font-size: 20px;
-  color: #073C64;
-  display: block;
-}
-
-.content-two .container .what-one .line,
-.content-two .container .what-two .line,
-.content-two .container .why .line {
-  width: 260px;
-  height: 3px;
-  background: #FDD34C;
-  position: relative;
-  float: left;
-  margin-top: 10px;
-}
-
-.content-two .container .what-one p,
-.content-two .container .what-two p,
-.content-two .container .why p {
-  font-family: OpenSans-Regular;
-  font-size: 18px;
-  color: #2A2A2B;
-  margin-top: 10px;
-}
-
-.content-two .container .what-two {
-  margin-left: 136.1px;
-  margin-right: 136.1px;
-}
-
-.team {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 80px;
-  margin-bottom: 0;
-}
-
-.team .container {
-  max-width: 78%;
-  margin: 0 auto;
-}
-
-.team .container span {
-  font-family: OpenSans-Regular;
-  font-size: 25px;
-  color: #2A2A2B;
-  display: block;
-}
-
-.team .container .line {
-  width: 167.5px;
-  height: 3px;
-  background: #FDD34C;
-  position: relative;
-  float: left;
-  margin-top: 10px;
-}
-
-.team .container .avatar {
-  float: left;
-  margin-top: 10.5px;
-}
-
-.team .container .avatar img {
-  float: left;
-  display: block;
-}
-
-.team .container .avatar .social {
-  width: 248px;
-  height: 136px;
-  background-color: #FFFFFF;
-  text-align: center;
-  position: absolute;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  display: block;
-  margin-left: 6px;
-  margin-right: 6px;
-}
-
-.team .container .avatar .social span {
-  font-family: OpenSans-Regular;
-  font-size: 18px;
-  color: #2A2A2B;
-}
-
-.team .container .avatar .social p {
+.box .container .link a.linktop {
   font-family: OpenSans-Regular;
   font-size: 14px;
-  color: #2A2A2B;
-  margin-top: 5px;
+  color: #073C64;
+  float: left;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
-.team .container .avatar .social .imgSocial {
+.box .container .link img#arroy {
+  float: left;
   -webkit-align-items: center;
   -ms-flex-align: center;
   -webkit-box-align: center;
           align-items: center;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10px;
-  margin-bottom: 0;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
-.team .container .avatar .social .imgSocial svg.twit {
-  margin-left: 19px;
-  margin-right: 19px;
+.box .container span#title {
+  font-family: OpenSans-Regular;
+  font-size: 27px;
+  color: #2A2A2B;
+  float: left;
+  margin-top: 10px;
+}
+
+.box .container img#myimg1 {
+  float: left;
+  width: 100%;
+  height: 566px;
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.box .container .text {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+
+.box .container .text p {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  color: #2A2A2B;
+}
+
+.box .container .text p:nth-child(2),
+.box .container .text p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.box .container .job {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+
+.box .container .job span {
+  width: 100%;
+  font-family: OpenSans-Regular;
+  font-size: 25px;
+  color: #2A2A2B;
+  float: left;
+}
+
+.box .container .job img {
+  width: 628px;
+  height: 408px;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding-top: 20px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  margin: 0 auto;
+}
+
+.box .container .share {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.box .container .share span {
+  width: 100%;
+  font-family: OpenSans-Regular;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #2A2A2B;
+  float: left;
+  display: block;
+}
+
+.box .container .share img {
+  margin-top: 10px;
+}
+
+.box .container .share img#ug {
+  margin-left: 10px;
+  margin-right: 10px;
 }
