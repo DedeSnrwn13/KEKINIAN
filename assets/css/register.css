@@ -277,6 +277,10 @@
   width: 75%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -309,7 +313,8 @@
   overflow: auto;
 }
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -336,345 +341,320 @@ a {
 }
 
 .box {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   float: left;
 }
 
 .box .content-left {
-  width: 45%;
+  width: 40%;
   height: 100vh;
   float: left;
-  background: #FFFFFF;
 }
 
 .box .content-left .left {
-  width: 400px;
-  height: 700px;
-  margin-left: 120px;
-  margin-right: 92px;
+  width: 276px;
+  height: unset;
+  padding-left: 139px;
+  padding-right: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   float: left;
-  padding-top: 30px !important;
+  position: relative;
 }
 
 .box .content-left .left .title {
-  width: 400px;
-  height: 99px;
   float: left;
 }
 
 .box .content-left .left .title .logo {
-  width: 168px;
-  height: 31.59px;
+  width: 100%;
+  float: left;
 }
 
 .box .content-left .left .title .logo img {
-  width: 37.7px;
-  height: 30.49px;
+  width: 39px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
 }
 
 .box .content-left .left .title .logo span {
   float: left;
   font-family: Montserrat-Regular;
   font-size: 25px;
-  color: #FDD34C;
+  color: #073C64;
   text-transform: uppercase;
+  margin-top: 5px;
 }
 
 .box .content-left .left .title .welcome {
-  width: 400px;
-  height: 62px;
   float: left;
 }
 
 .box .content-left .left .title .welcome span {
-  font-family: Montserrat-Regular;
+  font-family: OpenSans-Regular;
   font-size: 30px;
-  color: #463939;
+  color: #2A2A2B;
 }
 
 .box .content-left .left .title .welcome p {
   font-family: OpenSans-Regular;
   font-size: 15px;
   color: #BCBCBC;
-  margin-top: 5px;
 }
 
-.box .content-left .left .form {
-  width: 400px;
-  height: 750px;
+.box .content-left .left .name {
   float: left;
-  margin-top: 21.5px;
-  display: block;
+  position: relative;
+  margin-top: 15px;
+}
+
+.box .content-left .left .name .name-front,
+.box .content-left .left .name .name-back {
+  float: left;
   position: relative;
 }
 
-.box .content-left .left .form .name {
+.box .content-left .left .name .name-front span,
+.box .content-left .left .name .name-back span {
   width: 100%;
-  height: 140.5px;
-  float: left;
-  display: block;
-  position: relative;
-}
-
-.box .content-left .left .form .name .name-front,
-.box .content-left .left .form .name .name-back {
-  width: 100%;
-  height: 62.51px;
-  float: left;
-  position: relative;
-}
-
-.box .content-left .left .form .name .name-front span,
-.box .content-left .left .form .name .name-back span {
-  font-family: Montserrat-Regular;
+  font-family: OpenSans-Regular;
   font-size: 15px;
   color: #515151;
+  float: left;
 }
 
-.box .content-left .left .form .name .name-front input,
-.box .content-left .left .form .name .name-back input {
-  width: 400px;
-  height: 35px;
+.box .content-left .left .name .name-front input,
+.box .content-left .left .name .name-back input {
+  float: left;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 270px;
   outline: none;
   border: 1px solid #BCBCBC;
   background: transparent;
-  margin-top: 8.5px;
-  padding-left: 8px;
+  margin-top: 8px;
+  padding-left: 9px;
 }
 
-.box .content-left .left .form .name .name-front input::-webkit-input-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .name .name-back input::-webkit-input-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .name .name-front input::-webkit-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .name .name-back input::-webkit-input-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .name .name-front input::-moz-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .name .name-back input::-moz-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .name .name-front input::-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .name .name-back input::-moz-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .name .name-front input:-ms-input-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .name .name-back input:-ms-input-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .name .name-front input:-ms-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .name .name-back input:-ms-input-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .name .name-front input:-moz-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .name .name-back input:-moz-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .name .name-front input:-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .name .name-back input:-moz-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .name .name-back {
-  margin-top: 15.5px;
+.box .content-left .left .name .name-back {
+  margin-top: 15px;
 }
 
-.box .content-left .left .form .email,
-.box .content-left .left .form .pass {
-  width: 100%;
-  height: 62.51px;
+.box .content-left .left .email,
+.box .content-left .left .pass {
   position: relative;
   float: left;
-  margin-top: 15.5px;
+  margin-top: 15px;
 }
 
-.box .content-left .left .form .email span,
-.box .content-left .left .form .pass span {
-  font-family: Montserrat-Regular;
+.box .content-left .left .email span,
+.box .content-left .left .pass span {
+  width: 100%;
+  font-family: OpenSans-Regular;
   font-size: 15px;
   color: #515151;
+  float: left;
 }
 
-.box .content-left .left .form .email input,
-.box .content-left .left .form .pass input {
-  width: 400px;
-  height: 35px;
+.box .content-left .left .email input,
+.box .content-left .left .pass input {
+  float: left;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 270px;
   outline: none;
   border: 1px solid #BCBCBC;
   background: transparent;
-  margin-top: 8.5px;
-  padding-left: 8px;
+  margin-top: 8px;
+  padding-left: 9px;
 }
 
-.box .content-left .left .form .email input::-webkit-input-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .pass input::-webkit-input-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .email input::-webkit-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .pass input::-webkit-input-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .email input::-moz-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .pass input::-moz-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .email input::-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .pass input::-moz-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .email input:-ms-input-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .pass input:-ms-input-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .email input:-ms-input-placeholder::-webkit-input-placeholder,
+.box .content-left .left .pass input:-ms-input-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .email input:-moz-placeholder::-webkit-input-placeholder,
-.box .content-left .left .form .pass input:-moz-placeholder::-webkit-input-placeholder {
-  font-family: Montserrat-Regular;
+.box .content-left .left .email input:-moz-placeholder::-webkit-input-placeholder,
+.box .content-left .left .pass input:-moz-placeholder::-webkit-input-placeholder {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   color: #BCBCBC;
 }
 
-.box .content-left .left .form .ttl {
+.box .content-left .left .ttl {
+  float: left;
+  margin-top: 15px;
+}
+
+.box .content-left .left .ttl span {
   width: 100%;
-  height: 75.5px;
+  font-family: OpenSans-Regular;
+  font-size: 15px;
+  color: #515151;
   float: left;
-  margin-top: 27.3px;
 }
 
-.box .content-left .left .form .ttl select#tgl,
-.box .content-left .left .form .ttl select#month,
-.box .content-left .left .form .ttl select#years {
+.box .content-left .left .ttl select#tgl,
+.box .content-left .left .ttl select#month,
+.box .content-left .left .ttl select#years {
   float: left;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: transparent;
+  border: 1px solid #BCBCBC;
+  font-family: OpenSans-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+  outline: none;
+  margin-top: 8px;
+  padding-left: 5px;
+}
+
+.box .content-left .left .ttl select#tgl option,
+.box .content-left .left .ttl select#month option,
+.box .content-left .left .ttl select#years option {
+  font-family: OpenSans-Regular;
+  font-size: 13px;
+  color: #BCBCBC;
+  text-align: center;
+}
+
+.box .content-left .left .ttl select#month {
+  width: 93px;
+}
+
+.box .content-left .left .ttl select#tgl,
+.box .content-left .left .ttl select#years {
   width: 81px;
-  height: 35.4px;
-  background: transparent;
-  border: 1px solid #BCBCBC;
-  font-family: Montserrat-Regular;
-  font-size: 13px;
-  color: #BCBCBC;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  outline: none;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  margin-left: 10px;
 }
 
-.box .content-left .left .form .ttl select#tgl option,
-.box .content-left .left .form .ttl select#month option,
-.box .content-left .left .form .ttl select#years option {
-  font-family: Montserrat-Regular;
-  font-size: 13px;
-  color: #BCBCBC;
-  text-align: center;
-}
-
-.box .content-left .left .form .ttl select#month,
-.box .content-left .left .form .ttl select#years {
-  margin-left: 15px;
-}
-
-.box .content-left .left .form .ttl .confirm {
-  width: 400px;
-  height: 16px;
+.box .content-left .left .ttl .confirm {
   float: left;
-  position: relative;
-  margin-top: 11.8px;
+  margin-top: 11px;
 }
 
-.box .content-left .left .form .ttl .confirm input {
+.box .content-left .left .ttl .confirm input {
   width: 12px;
-  height: 12px !important;
+  height: 12px;
   border-radius: 3px;
-  background: transparent;
+  background: #fff;
   border: 2px solid #BCBCBC;
   float: left;
 }
 
-.box .content-left .left .form .ttl .confirm p {
-  font-family: Montserrat-Regular;
+.box .content-left .left .ttl .confirm p {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   float: left;
   margin-left: 5px;
   color: #BCBCBC;
-  margin-top: -2px;
+  margin-top: -4px;
 }
 
-.box .content-left .left .form a {
+.box .content-left .left a#regis {
   text-decoration: none;
   cursor: pointer;
-}
-
-.box .content-left .left .form a .btn {
-  width: 100%;
-  height: 42px;
+  outline: none;
+  background-color: #073C64;
   float: left;
-  font-family: Montserrat-Regular;
   font-size: 15px;
-  background: #073C64;
-}
-
-.box .content-left .left .form a .btn span {
+  font-family: OpenSans-Regular;
   color: #FFFFFF;
-  padding-left: 175px;
-  padding-right: 175px;
-  margin-top: 11.5px;
-  float: left;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 276px;
+  margin-top: 11px;
 }
 
-.box .content-left .left .form .question {
-  width: 400px;
-  height: 16px;
+.box .content-left .left .question {
   float: left;
   margin-top: 16px;
 }
 
-.box .content-left .left .form .question span {
-  font-family: Montserrat-Regular;
+.box .content-left .left .question span {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   float: left;
   color: #BCBCBC;
   letter-spacing: 2px;
 }
 
-.box .content-left .left .form .question p {
-  font-family: Montserrat-Regular;
+.box .content-left .left .question p {
+  font-family: OpenSans-Regular;
   font-size: 13px;
   cursor: pointer;
   color: #073C64;
   float: left;
+  letter-spacing: 2px;
 }
 
-.box .content-left .left .form .question p a {
+.box .content-left .left .question p a {
   text-decoration: none;
   margin-left: 10px;
   float: left;
+  color: #073C64;
 }
 
 .box .content-right {
-  width: 55%;
-  height: 778px;
-  float: left;
+  width: 60%;
+  height: 100vh;
+  float: right;
 }
 
 .box .content-right img {
+  float: left;
   width: 100%;
   height: 100%;
-  float: left;
-}
-
-@media screen and (max-width: 1440px) {
-  .left {
-    padding-top: 60px !important;
-  }
-  .left .form input {
-    height: 45px !important;
-  }
-  .left .form .confirm {
-    width: 100% !important;
-  }
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
 }

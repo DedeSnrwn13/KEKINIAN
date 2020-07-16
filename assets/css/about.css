@@ -277,6 +277,10 @@
   width: 75%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -424,6 +428,16 @@ a {
 .content-two .container .why {
   width: unset;
   float: left;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.content-two .container .what-one:hover,
+.content-two .container .what-two:hover,
+.content-two .container .why:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .content-two .container .what-one span,
@@ -466,7 +480,7 @@ a {
   margin-left: 0;
   margin-right: 0;
   margin-top: 80px;
-  margin-bottom: 0;
+  margin-bottom: 80px;
 }
 
 .team .container {
@@ -493,6 +507,8 @@ a {
 .team .container .avatar {
   float: left;
   margin-top: 10.5px;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
 }
 
 .team .container .avatar img {
@@ -506,19 +522,29 @@ a {
   background-color: #FFFFFF;
   text-align: center;
   position: absolute;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
   display: block;
   margin-left: 6px;
   margin-right: 6px;
+  -webkit-transform: translateY(280px);
+  -ms-transform: translateY(280px);
+  transform: translateY(280px);
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.team .container .avatar .social:hover {
+  -webkit-transform: translateY(250px);
+  -ms-transform: translateY(250px);
+  transform: translateY(250px);
+  -webkit-box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 0px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
 .team .container .avatar .social span {
   font-family: OpenSans-Regular;
   font-size: 18px;
   color: #2A2A2B;
+  margin-top: 18px;
 }
 
 .team .container .avatar .social p {
@@ -539,7 +565,30 @@ a {
   margin-bottom: 0;
 }
 
+.team .container .avatar .social .imgSocial svg {
+  cursor: pointer;
+}
+
+.team .container .avatar .social .imgSocial svg circle:hover {
+  fill: #073C64;
+}
+
+.team .container .avatar .social .imgSocial svg.ig path:hover {
+  fill: #073C64;
+}
+
 .team .container .avatar .social .imgSocial svg.twit {
   margin-left: 19px;
   margin-right: 19px;
+}
+
+.team .container .avatar:hover {
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.team .container .avatar.middle {
+  margin-left: 136px;
+  margin-right: 136px;
 }

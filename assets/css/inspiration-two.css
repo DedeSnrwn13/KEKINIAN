@@ -373,6 +373,71 @@ a {
   margin-top: 10px;
 }
 
+.box .container .w-100 {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.box .container .w-100 .image {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.box .container .w-100 .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.box .container .w-100 .detail {
+  float: left;
+  margin-left: 16px;
+}
+
+.box .container .w-100 .detail .name {
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+}
+
+.box .container .w-100 .detail .name span {
+  font-family: OpenSans-Regular;
+  color: #2A2A2B;
+  font-size: 14px;
+}
+
+.box .container .w-100 .detail .name a {
+  font-family: OpenSans-Regular;
+  color: #6A6A6B;
+  border: 1px solid #6A6A6B;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.box .container .w-100 .detail .date {
+  width: 100%;
+  float: left;
+}
+
+.box .container .w-100 .detail .date p {
+  font-family: OpenSans-Regular;
+  color: #6A6A6B;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
 .box .container img#myimg1 {
   float: left;
   width: 100%;
@@ -387,7 +452,13 @@ a {
 .box .container .text {
   width: 100%;
   float: left;
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.box .container .text span {
+  font-family: OpenSans-Regular;
+  font-size: 24px;
+  color: #2A2A2B;
 }
 
 .box .container .text p {
@@ -403,31 +474,83 @@ a {
 .box .container .text p:nth-child(6),
 .box .container .text p:nth-child(7),
 .box .container .text p:nth-child(8),
-.box .container .text p:nth-child(9) {
+.box .container .text p:nth-child(9),
+.box .container .text p:nth-child(10) {
+  margin-top: 5px;
+}
+
+.box .container .text p:nth-child(2),
+.box .container .text p:nth-child(3),
+.box .container .text p:nth-child(4),
+.box .container .text p:nth-child(5),
+.box .container .text p:nth-child(6),
+.box .container .text p:nth-child(7),
+.box .container .text p:nth-child(8) {
+  margin-bottom: 25px;
+}
+
+.box .container .text p:nth-child(2):first-letter,
+.box .container .text p:nth-child(3):first-letter,
+.box .container .text p:nth-child(4):first-letter,
+.box .container .text p:nth-child(5):first-letter,
+.box .container .text p:nth-child(6):first-letter,
+.box .container .text p:nth-child(7):first-letter,
+.box .container .text p:nth-child(8):first-letter,
+.box .container .text p:nth-child(9):first-letter,
+.box .container .text p:nth-child(10):first-letter {
+  margin-left: 20px;
+}
+
+.box .container .border {
+  float: left;
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background: #707070;
+}
+
+.box .container .opt {
+  width: 100%;
+  float: left;
   margin-top: 20px;
 }
 
-.box .container .share {
+.box .container .opt .react {
   float: left;
-  width: 100%;
-  margin-top: 30px;
 }
 
-.box .container .share span {
-  width: 100%;
+.box .container .opt .react svg {
+  float: left;
+  width: 38px;
+  height: 35px;
+  margin-top: 6px;
+}
+
+.box .container .opt .react .desc {
+  float: left;
+  margin-left: 15px;
+}
+
+.box .container .opt .react .desc p {
   font-family: OpenSans-Regular;
-  font-size: 17px;
-  text-transform: uppercase;
+  font-size: 14px;
   color: #2A2A2B;
-  float: left;
+}
+
+.box .container .opt .react .desc p:nth-child(1) {
   display: block;
+  margin-bottom: 6px;
 }
 
-.box .container .share img {
-  margin-top: 10px;
+.box .container .opt .share {
+  float: right;
+  margin-top: 11px;
 }
 
-.box .container .share img#ig {
+.box .container .opt .share img {
   margin-left: 10px;
-  margin-right: 10px;
+}
+
+.box .container .opt .share .etc {
+  float: right;
 }

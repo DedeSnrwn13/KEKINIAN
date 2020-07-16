@@ -277,6 +277,10 @@
   width: 75%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -328,16 +332,11 @@ a {
 .banner {
   width: 100%;
   height: 490px;
-  background: url("./../images/bannerompress90.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   float: left;
-  -o-object-position: center;
-  object-position: center;
-  -o-object-fit: contain;
-  object-fit: contain;
-  position: relative;
-  display: block;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
 }
 
 .banner .container {
@@ -346,8 +345,11 @@ a {
 }
 
 .banner .container .text-banner {
-  margin-top: 95px;
   float: left;
+  margin-top: 120px;
+  position: absolute;
+  display: grid;
+  margin-left: 145px;
 }
 
 .banner .container .text-banner span {
@@ -380,6 +382,35 @@ a {
   line-height: 16px;
   margin-top: 17px;
   float: left;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.banner .container .text-banner .text-content-banner a.btn-banner:hover {
+  background: #073c64;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  border: 2px solid #073c64;
+}
+
+.banner .banner img {
+  width: 100%;
+  height: 490px;
+  position: absolute;
+  background-size: 100% 100%;
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  float: left;
+  z-index: -10000;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-transition: 1.5s ease;
+  transition: 1.5s ease;
 }
 
 .content-hoax {
@@ -444,6 +475,20 @@ a {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.content-hoax .container #content-hoax-left .text-title a.btn-readmore:hover {
+  background: #ffffff;
+  color: #777777;
+  border: 2px solid #C6C6C6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .content-hoax .container #content-hoax-right {
@@ -594,6 +639,18 @@ a {
   margin-top: 10px;
 }
 
+.berita-utama .container .berita-right .desc-berita-utama a.btn-readmore:hover {
+  background: #ffffff;
+  color: #777777;
+  border: 2px solid #C6C6C6;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .berita-utama .container .pagination {
   display: none;
 }
@@ -698,6 +755,16 @@ a {
   margin-left: 465px;
   margin-right: 465px;
   margin-top: 30px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.berita-lainnya .container a.btn-lainnya:hover {
+  background: #073c64;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  border: 2px solid #073c64;
 }
 
 .gallery {
@@ -759,6 +826,10 @@ a {
   width: 518.1px;
   height: 279px;
   float: left;
+  -o-object-position: center;
+  object-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .gallery .container .gal-img .img-top img#myimg8 {
@@ -814,6 +885,16 @@ a {
   margin-left: 465px;
   margin-right: 465px;
   margin-top: 30px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.gallery .container a.btn-gallery:hover {
+  background: #073c64;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  border: 2px solid #073c64;
 }
 
 .video {
@@ -953,6 +1034,16 @@ a {
   margin-left: 465px;
   margin-right: 465px;
   margin-top: 30px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.video .container a.btn-video:hover {
+  background: #073c64;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+  border: 2px solid #073c64;
 }
 
 .popup-area {

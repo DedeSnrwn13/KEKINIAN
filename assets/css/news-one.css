@@ -277,6 +277,10 @@
   width: 75%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -446,9 +450,10 @@ a {
 
 .box .container .share img {
   margin-top: 10px;
+  cursor: pointer;
 }
 
-.box .container .share img#ug {
+.box .container .share img#ig {
   margin-left: 10px;
   margin-right: 10px;
 }
